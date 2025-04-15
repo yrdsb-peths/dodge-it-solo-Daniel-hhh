@@ -7,5 +7,8 @@ public class MyWorld extends World {
         
         Leo leo = new Leo();
         addObject(leo, 250, 250);
+        
+        bee Bee = new bee();
+        addObject(Bee, 666,111);
     }
 }
