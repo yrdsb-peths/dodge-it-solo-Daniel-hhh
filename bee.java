@@ -8,6 +8,12 @@ public class bee extends Actor
         {
             resetbee();
         }
+        if(isTouching(Leo.class))
+        {
+            Happyface happyFace = new Happyface();
+            getWorld().addObject(happyFace, 300, 200);
+            getWorld().removeObject(this);
+        }
     }
 public void resetbee()
 {
